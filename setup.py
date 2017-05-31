@@ -6,7 +6,7 @@ from os.path import dirname, join, realpath
 from setuptools import setup, find_packages
 
 
-NAME = 'INSERT NAME'
+NAME = 'package_name'
 URL = ''
 AUTHOR = 'INSERT AUTHOR'
 EMAIL = ''

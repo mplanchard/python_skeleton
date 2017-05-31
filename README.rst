@@ -62,11 +62,16 @@ Then adjust the following as needed:
 
 You should now be able to:
 
-* Run tests
+* Install your package in development mode:
 
   .. code:: bash
 
     pip install -e .
+
+* Run tests
+
+  .. code:: bash
+
     py.test
 
 * Run tests against all configured Python interpreters and build documentation
