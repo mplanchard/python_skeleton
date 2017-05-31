@@ -40,7 +40,10 @@ project root:
     cd my_project
 
 Then setup and activate a virtual environment for the project. A 
-``create_venv.sh`` script is provided for convenience:
+``create_venv.sh`` script is provided for convenience. Note that the provided
+script assumes you want to use "python3" as an interpreter. If you don't,
+adjust the script to use your desired Python prior to running the following
+commands:
 
 .. code:: bash
 
