@@ -51,6 +51,29 @@ Then adjust the following as needed:
 * If you're using type-hints and you intend to support anything less than 
   Python 3.5, uncomment the indicated line in ``requirements.txt``
 
+You should now be able to:
+
+* Run tests using your active Python interpreter (a virtual environment is
+  highly recommended!)
+
+  .. code:: bash
+
+    pip install -e .
+    py.test
+
+* Run tests against all configured Python interpreters and build documentation
+
+  .. code:: bash
+
+    tox
+
+* Build your project
+
+  .. code:: bash
+
+    python setup.py bdist_wheel
+
+
 Contributing
 ------------
 
