@@ -36,7 +36,9 @@ project root:
 
     mkdir my_project
     git clone https://github.com/mplanchard/python_skeleton
-    cp -r python_skeleton/. my_project
+    cp -r python_skeleton/* my_project/
+    cp python_skeleton/.editorconfig my_project/
+    cp python_skeleton/.gitignore my_project/
     cd my_project
 
 Then setup and activate a virtual environment for the project. A 
