@@ -95,9 +95,9 @@ Contributing
 
 I use this repo as a skeleton for the majority of my projects, and you are
 welcome to do the same. If you'd like to fix something, improve the
-documentation, or add a new feature, please feel free to open a PR. If there's
+documentation, or add a new feature, please feel free to open a PR_. If there's
 a feature you'd like to see added and you're unsure of how to contribute,
-raise an Issue.
+raise an Issue_.
 
 .. _py.test: https://docs.pytest.org/en/latest/
 .. _coverage: https://coverage.readthedocs.io/
@@ -109,4 +109,6 @@ raise an Issue.
 .. _travis.yml: https://docs.travis-ci.com/user/languages/python/
 .. _travis: https://docs.travis-ci.com/
 .. _`mit license`: https://en.wikipedia.org/wiki/MIT_License
+.. _pr: https://github.com/mplanchard/python_skeleton/pulls
+.. _issue: https://github.com/mplanchard/python_skeleton/issues
 
