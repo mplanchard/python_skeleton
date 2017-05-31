@@ -34,9 +34,18 @@ project root:
 
 .. code:: bash
 
+    mkdir my_project
     git clone https://github.com/mplanchard/python_skeleton
-    cp -r python_skeleton/* my_project/
+    cp -r python_skeleton/. my_project
     cd my_project
+
+Then setup and activate a virtual environment for the project. A 
+``create_venv.sh`` script is provided for convenience:
+
+.. code:: bash
+
+    ./create_venv.sh
+    source venv/bin/activate
 
 Then adjust the following as needed:
 
@@ -53,8 +62,7 @@ Then adjust the following as needed:
 
 You should now be able to:
 
-* Run tests using your active Python interpreter (a virtual environment is
-  highly recommended!)
+* Run tests
 
   .. code:: bash
 
