@@ -24,7 +24,10 @@ EXTRAS_DEPENDENCIES = {}
 
 ENTRY_POINTS = {}
 
-with open('requirements.txt') as reqfile:
+
+PACKAGE_DIR = realpath(dirname(__file__))
+
+with open(join(PACKAGE_DIR, 'requirements.txt')) as reqfile:
     for ln in reqfile:
         if not ln.startswith('#'):
             PACKAGE_DEPENDENCIES.append(ln.strip())
