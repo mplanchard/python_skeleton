@@ -29,7 +29,7 @@ PACKAGE_DIR = realpath(dirname(__file__))
 
 with open(join(PACKAGE_DIR, 'requirements.txt')) as reqfile:
     for ln in reqfile:
-        if not ln.startswith('#'):
+        if not ln.startswith('#') and ln.strip():
             PACKAGE_DEPENDENCIES.append(ln.strip())
 
 # See https://pypi.python.org/pypi?%3Aaction=list_classifiers for all
