@@ -53,6 +53,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.viewcode',
+    # 'sphinx_autodoc_typehints',  # uncomment to support type-hinting
 ]
 
 # Add any paths that contain templates here, relative to this directory.
