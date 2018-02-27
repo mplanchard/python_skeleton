@@ -85,4 +85,5 @@ setup(
     setup_requires=SETUP_DEPENDENCIES,
     tests_require=TEST_DEPENDENCIES,
     extras_require=EXTRAS_DEPENDENCIES,
+    entry_points=ENTRY_POINTS,
 )
