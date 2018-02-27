@@ -5,7 +5,7 @@ This template provides a basic template for a Python project, with
 out-of-the-box support for py.test_, coverage_, Sphinx_, tox_, and
 the standard Python flow for `building`_ and `distributing`_ projects.
 
-An .editorconfig_ file is provided to ensure standard settings when 
+An .editorconfig_ file is provided to ensure standard settings when
 working with multiple editors.
 
 A travis.yml_ file is provided for easy integration with the travis_
@@ -41,7 +41,7 @@ project root:
     cp python_skeleton/.gitignore my_project/
     cd my_project
 
-Then setup and activate a virtual environment for the project. A 
+Then setup and activate a virtual environment for the project. A
 ``create_venv.sh`` script is provided for convenience. Note that the provided
 script assumes you want to use "python3" as an interpreter. If you don't,
 adjust the script to use your desired Python prior to running the following
@@ -62,7 +62,7 @@ Then adjust the following as needed:
 * If you don't want to support Python 2 (a more and more reasonable decision),
   remove ``py27`` from the environments list in ``tox.ini``, and then in
   ``setup.cfg``, comment out ``universal=1`` and uncomment ``python-tag=py3``.
-* If you're using type-hints and you intend to support anything less than 
+* If you're using type-hints and you intend to support anything less than
   Python 3.5, uncomment the indicated line in ``requirements.txt``
 
 You should now be able to:
